@@ -9,8 +9,12 @@ Category.hasOne(ProductTag);
 ProductTag.belongsTo(Category);
 
 // // Categories have many Products
-Category.hasMany(Product);
-Product.belongsTo(Category);
+Category.hasMany(Product, {
+  onDelete: "Cascade",
+});
+Product.belongsTo(Category, {
+  onDelete: "Cascade",
+});
 
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, { through: "tag_id" });
