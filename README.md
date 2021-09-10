@@ -34,6 +34,8 @@ If you'd like to use seed data run
 With the database now situated, run  
 ```npm run start```
 
+[Video Demonstration](https://drive.google.com/file/d/1w35zDfzOJdwZuGv2Eh_LA-wtMkGVDA50/view?usp=sharing)
+
 
 # Usage
 This project is meant to be used purely on the backend, exposing common CRUD API endpoints for a
