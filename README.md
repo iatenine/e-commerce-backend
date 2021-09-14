@@ -42,6 +42,8 @@ This project is meant to be used purely on the backend, exposing common CRUD API
 typical e-commerce store and querying a database accordingly. The seed data can be ignored and tables
 used differently as per the needs of a project
 
+[Video Walkthrough](https://drive.google.com/file/d/1w35zDfzOJdwZuGv2Eh_LA-wtMkGVDA50/view?usp=sharing)
+
 
 # Contributing
 To contribute to this project:
